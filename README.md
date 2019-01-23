@@ -6,14 +6,14 @@ This is an extension onto the original repo found [here](https://github.com/baid
 
 ## Installation
 
-Install [PyTorch](https://github.com/pytorch/pytorch#installation) v0.4.
+Install [PyTorch](https://github.com/pytorch/pytorch#installation) v1.0.
 
 `WARP_CTC_PATH` should be set to the location of a built WarpCTC
 (i.e. `libwarpctc.so`).  This defaults to `../build`, so from within a
 new warp-ctc clone you could build WarpCTC like this:
 
 ```bash
-git clone https://github.com/SeanNaren/warp-ctc.git
+git clone https://github.com/xgmiao/warp-ctc.git
 cd warp-ctc
 mkdir build; cd build
 cmake ..
